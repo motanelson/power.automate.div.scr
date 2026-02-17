@@ -1,2 +1,1 @@
-# land.view
-land view codes of land maps
+wizard genareter for mounter code to past on power automate
