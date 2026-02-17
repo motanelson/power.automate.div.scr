@@ -1,6 +1,6 @@
 var1="""Workstation.GetScreenResolution MonitorNumber: 1 MonitorWidth => MonitorWidth MonitorHeight => MonitorHeight
 SET varx TO MonitorWidth / $0
-SET vary TO MonitorWidth / $1
+SET vary TO MonitorHeight / $1
 Display.ShowMessageDialog.ShowMessage Title: $'''x,y''' Message: $'''%varx% , %vary%''' Icon: Display.Icon.None Buttons: Display.Buttons.OK DefaultButton: Display.DefaultButton.Button1 IsTopMost: False ButtonPressed=> ButtonPressed
 """
 print("\033c\033[40;37m\n give me x div by screen' ? ")
