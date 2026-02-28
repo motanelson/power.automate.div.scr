@@ -12,10 +12,14 @@ slope, intercept, r, p, std_err = stats.linregress(x, y)
 
 def myfunc(x):
     return slope * x + intercept
-
+print(slope)
+print(intercept)
+print(r)
+print(p)
 mymodel = list(map(myfunc, x))
 print(x)
 print(y)
+print(mymodel)
 # Gráfico
 plt.scatter(x, y)
 plt.plot(x, mymodel)
